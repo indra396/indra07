@@ -1,0 +1,360 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #007bff;
+    color: white;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 20px;
+    height: 40px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #35424a;
+    border-radius: 15px;
+    color: white;
+}
+
+.btn-primary, .btn-secondary {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background: #5cb85c;
+}
+
+.btn-secondary {
+    background: #007bff;
+}
+.btn-secondary:hover {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+footer {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+.products {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.products h2{
+    padding-left: 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #d9534f;
+    margin: 10px 0;
+}
+
+.rating {
+    color: #ffcc00; /* Warna untuk bintang rating */
+    margin: 5px 0;
+}
+
+.btn-secondary1 {
+    background-color: #5cb85c; /* Warna tombol */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #4cae4c; /* Warna tombol saat hover */
+}
+
+
+        /* Slider */
+        .slider {
+            position: relative;
+            width: 100%;
+            height: 150px;
+            overflow: hidden;
+        }
+
+        .slider img {
+            padding-top: 25px;
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            margin-right: 10000px;
+        }
+
+        /* Kategori Produk */
+        .categories {
+            padding-top: 10px;  
+            text-align: center;
+        }
+
+        .categories h3{
+            font-size: 10px;
+        }
+
+        .category-grid {
+            padding: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            gap: 18px;
+        }
+
+        .category-card {
+            background-color: white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            /* height: 90px; */
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .category-card img {
+            width: 100%;
+            height: 50px;
+            border-radius: 5px;
+        }
+
+        /* Produk Terbaru */
+        .latest-products {
+            padding: 20px;
+            background-color: #fff;
+            text-align: center;
+        }
+
+        .latest-products h2 {
+            margin-bottom: 20px;
+        }
+
+
+        .container {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 130px;
+        }
+
+        .login-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        .register-container {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            width: 400px;
+            text-align: center;
+        }
+
+        .containerregis {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 60px;
+        }
+
+        .promo-container {
+            padding-top: 60px;
+            padding-bottom: 120px;
+            width: 80%;
+            max-width: 1000px;
+            margin: 15px auto;
+            text-align: center;
+        }
+
+
+
+        .promo-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            background-color: white;
+        }
+
+        .promo-table th, .promo-table td {
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .promo-table th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        .promo-table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        .btn-primary, .btn-secondary {
+            padding: 4px 12px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background-color: #28a745;
+        }
+
+        .btn-primary:hover {
+            background-color: #218838;
+        }
+
+        .btn-secondary {
+            background-color: #007bff;
+        }
+
+        .btn-secondary:hover {
+            background-color: #0056b3;
+        }
+
+        .menu-utama{
+            padding: 189px;
+            
+        }
